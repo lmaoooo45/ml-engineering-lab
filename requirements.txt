@@ -1,0 +1,13 @@
+# PyTorch CPU устанавливается отдельно, см. README.
+transformers==4.51.3
+tensorflow==2.20.0
+tf-keras==2.20.1
+tensorflow-hub==0.16.1
+numpy==2.2.6
+Pillow==11.2.1
+opencv-python-headless==4.11.0.86
+soundfile==0.13.1
+scipy==1.15.3
+pytest==8.3.5
+# TensorFlow Hub 0.16 использует pkg_resources.
+setuptools==80.9.0

@@ -1,0 +1,31 @@
+{
+  "file": "dog.jpg (пример PyTorch Hub)",
+  "model": "MobileNetV2/ImageNet",
+  "predictions": [
+    {
+      "id": "n02111889",
+      "label": "Samoyed",
+      "score": 0.6408200860023499
+    },
+    {
+      "id": "n02120079",
+      "label": "Arctic_fox",
+      "score": 0.10261847078800201
+    },
+    {
+      "id": "n02112018",
+      "label": "Pomeranian",
+      "score": 0.08246152848005295
+    },
+    {
+      "id": "n02123394",
+      "label": "Persian_cat",
+      "score": 0.015174099244177341
+    },
+    {
+      "id": "n02112350",
+      "label": "keeshond",
+      "score": 0.014354441314935684
+    }
+  ]
+}

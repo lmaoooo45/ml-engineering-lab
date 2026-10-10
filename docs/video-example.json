@@ -1,0 +1,59 @@
+{
+  "file": "3 кадра фотографии dog.jpg",
+  "output_video": "outputs/dog_video.mp4",
+  "model": "https://tfhub.dev/tensorflow/ssd_mobilenet_v2/fpnlite_320x320/1",
+  "fps": 5.0,
+  "frames": 3,
+  "every": 1,
+  "threshold": 0.5,
+  "processed_frames": [
+    {
+      "frame": 0,
+      "seconds": 0.0,
+      "detections": [
+        {
+          "class_id": 17,
+          "score": 0.60563725233078,
+          "box_yxyx": [
+            0.03867349028587341,
+            0.10873100161552429,
+            0.979341983795166,
+            0.9232507944107056
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "seconds": 0.2,
+      "detections": [
+        {
+          "class_id": 17,
+          "score": 0.654613733291626,
+          "box_yxyx": [
+            0.04791650176048279,
+            0.1058279275894165,
+            0.9849323034286499,
+            0.9251772165298462
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "seconds": 0.4,
+      "detections": [
+        {
+          "class_id": 17,
+          "score": 0.6493762135505676,
+          "box_yxyx": [
+            0.047939419746398926,
+            0.10585811734199524,
+            0.9845130443572998,
+            0.9227297306060791
+          ]
+        }
+      ]
+    }
+  ]
+}
